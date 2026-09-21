@@ -1,0 +1,13 @@
+{
+    "identifier": "datastore_naive",
+    "chunk_size": 256,
+    "chunk_overlap": 0,
+    "model_id": "jinaai/jina-embeddings-v3",
+    "model_kwargs": {
+        "device": "cuda",
+        "trust_remote_code": true
+    },
+    "persist_directory": "database/datastore_naive_db",
+    "data_file": "data/dataset.parquet",
+    "k": 4
+}

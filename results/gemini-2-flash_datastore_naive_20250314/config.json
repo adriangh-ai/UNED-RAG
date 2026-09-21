@@ -1,0 +1,8 @@
+{
+    "model_id": "gemini-2-flash",
+    "framework": "pt",
+    "device": "auto",
+    "max_new_tokens": 512,
+    "temperature": 0,
+    "inference-mode": "google"
+}
